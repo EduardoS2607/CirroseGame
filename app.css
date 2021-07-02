@@ -1,0 +1,100 @@
+body{
+    background-image: url(https://psycatgames.com/app/never-have-i-ever/img/confetti.svg);
+    background-image: url('media/img/Fundo-celular-menor.png');
+    background-color: #214;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: .1rem;
+    color:#4a494b
+}
+.jumbotron{
+    width: 350px;
+    height: 560px;
+    text-align: center;
+    margin: 80px auto 0 auto;
+    background-color: #fff;
+    border-radius: 10%;
+    /* background-color: #e9ecef;
+}
+
+.container {
+    width: 80vw;
+    height: 90vh;
+    /* background: #6C7A89; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-start{
+    margin-top: 5em;
+}
+
+#img-logo{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 10px auto;
+}
+
+#img-desafio{
+    width: 300px;
+    height: 330px;
+    margin-bottom: 10px;
+}
+
+.btn-next{
+    margin: 15px auto 0 auto;
+    border-radius: 10%;
+    color: #fff;
+}
+
+.title-desafio{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.06em;
+    margin: 20px 10px;
+}
+
+.description-desafio{
+    font-size: 24px;
+    padding: 0px 20px;
+}
+
+.icone{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin:20px auto;
+    display: block;
+}
+
+.castigo{
+    margin-top: 73px;
+}
+.texto-descricao{
+    height: 87px;
+}
+b{
+    color: #fabf00
+    
+}
+
+.logo-desafio{
+    width: 7em;
+    display: block;
+    margin: 10px auto;
+
+}
+
+.hide{
+    display: none;
+}
+
+p{
+    margin: 0;
+}
+
+.btn{
+    font-size: 2.12rem;
+}
