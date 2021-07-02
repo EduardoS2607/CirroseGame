@@ -1,14 +1,24 @@
 function nextChallenge(){
-        const random = (max) => Math.floor(Math.random() * max);
-
-        var elems = document.getElementsByClassName('conteudo');
-        for (var i=0;i<elems.length;i+=1){
-          elems[i].style.display = 'none';
+        let allDivs = document.getElementsByClassName('conteudo');
+        for (let i=0;i<allDivs.length;i+=1){
+          allDivs[i].style.display = 'none';
         }
 
-        var elemsRandom = document.getElementsByClassName(`conteudo-${random(3)}`);
-        for (var i=0;i<elemsRandom.length;i+=1){
-            elemsRandom[i].style.display = 'block';
-          }
-        console.log(elemsRandom);
+        let divSelect = document.getElementsByClassName(`conteudo-${criarUnico()}`);
+        for (let i=0;i<divSelect.length;i+=1){
+            divSelect[i].style.display = 'block';
+        }
+}
+
+let sorteados = [];
+let valorMaximo = 4;
+
+function criarUnico() {
+    if (sorteados.length == valorMaximo)sorteados = []
+    let sugestao = Math.ceil(Math.random() * valorMaximo);
+    while (sorteados.indexOf(sugestao) >= 0) {
+        sugestao = Math.ceil(Math.random() * valorMaximo);
+    }
+    sorteados.push(sugestao);
+    return sugestao;
 }
