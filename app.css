@@ -1,11 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
-    background-image: url(https://psycatgames.com/app/never-have-i-ever/img/confetti.svg);
-    background-image: url('media/img/Fundo-celular-menor.png');
-    background-color: #214;
+    background-image: url('media/img/Fundo-celular-menor.png'), url(https://psycatgames.com/app/never-have-i-ever/img/confetti.svg);
     font-family: 'Bebas Neue', cursive;
     letter-spacing: .1rem;
     color:#4a494b
 }
+
+p{
+    margin: 0;
+}
+
+b{
+    color: #fabf00
+    
+}
+
+.container{
+    background-image: url(https://psycatgames.com/app/never-have-i-ever/img/confetti.svg);
+}
+
 .jumbotron{
     width: 350px;
     height: 580px;
@@ -19,15 +36,10 @@ body{
     align-items: center;
 }
 
-.btn-start{
-    margin-top: 5em;
-}
-
 #img-logo{
-    width: 100px;
-    height: 100px;
+    width: 7em;
     display: block;
-    margin: 10px auto;
+    margin: 30px auto -30px auto;
 }
 
 #img-desafio{
@@ -36,10 +48,12 @@ body{
     margin-bottom: 10px;
 }
 
-.btn-next{
-    margin: 15px auto 0 auto;
-    border-radius: 10%;
-    color: #fff;
+.icone{
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    margin:20px auto;
+    display: block;
 }
 
 .title-desafio{
@@ -54,41 +68,28 @@ body{
     padding: 0px 20px;
 }
 
-.icone{
-    width: 150px;
-    height: 150px;
-    padding: 10px;
-    margin:20px auto;
-    display: block;
-}
-
-.castigo{
+.texto-castigo{
     margin-top: 73px;
 }
+
 .texto-descricao{
     height: 87px;
-}
-b{
-    color: #fabf00
-    
-}
-
-.logo-desafio{
-    width: 7em;
-    display: block;
-    margin: 30px auto -30px auto;
-
 }
 
 .hide{
     display: none;
 }
 
-p{
-    margin: 0;
-}
-
 .btn{
     font-size: 2.12rem;
 }
 
+.btn-start{
+    margin-top: 5em;
+}
+
+.btn-next{
+    margin: 15px auto 0 auto;
+    border-radius: 10%;
+    color: #fff;
+}
